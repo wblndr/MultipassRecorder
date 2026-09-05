@@ -1,0 +1,26 @@
+# Build output
+build/
+build32/
+build64/
+*.addon
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+
+# Captures / logs (never commit footage)
+captures/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
